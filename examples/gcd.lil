@@ -1,0 +1,19 @@
+program gcd
+# Calcola l'MCD di due interi
+begin
+    input a
+    input b
+    while a <> b 
+    begin
+        if a > b 
+        begin
+            a = a - b
+        end 
+        else 
+        begin
+            b = b - a
+        end
+    end
+    gcd = a
+    output gcd
+end

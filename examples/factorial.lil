@@ -1,0 +1,13 @@
+Program factorial
+# Calcola il fattoriale del numero
+# richiesto in input all'utente.
+Begin
+    Input n
+    factorial = 1
+    While n > 1 
+    Begin
+        factorial = factorial * n
+        n = n - 1
+    End
+    Output factorial
+End

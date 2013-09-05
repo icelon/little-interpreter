@@ -1,0 +1,14 @@
+Program hallo
+Begin
+   ans = 1
+   var1 = 1
+   var2 = 2
+   var3 = 3
+   Print var1, "\n"
+   Print var1, var2, var3, "\n"
+   Print "hallo world", "\n"
+   Print var1, var2, var3, "\n"
+   Print "hallo world, var[]={",  var1, var2, var3, "}", "\n"
+   PrintLn "hallo world, ", "& ", "byebye"
+   Output ans
+End

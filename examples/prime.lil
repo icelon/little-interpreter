@@ -1,0 +1,17 @@
+Program test_prime
+# Controlla che il numero immesso dall'utente
+# sia primo.
+Begin
+   Input n
+   c = 2
+   is_prime = 1
+   While (c < n / 2) & is_prime 
+   Begin
+      If n % c == 0 
+      Begin
+         is_prime = 0
+      End
+      c = c + 1
+   End
+   Output is_prime
+End

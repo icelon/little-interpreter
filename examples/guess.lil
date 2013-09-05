@@ -1,0 +1,31 @@
+Program guess_the_number
+# Indovina il numero segreto!
+Begin
+    secret = 8
+    guess = -1
+
+    win = 1
+    too_few = 0
+    too_much = 0
+
+    While secret <> guess 
+    Begin
+        Input guess
+        # Modo contorto per scrivere un'uguaglianza
+        If !(secret <> guess) 
+        Begin
+            Output win # Woohoo
+        End 
+        Else 
+        Begin 
+            If secret < guess 
+            Begin
+                Output too_much # Booo
+            End 
+            Else 
+            Begin
+                Output too_few # Booo
+            End # If interno
+        End # If esterno
+    End # While
+End # Program
