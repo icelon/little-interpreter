@@ -1,0 +1,7 @@
+/* lib_calc_early_v0.c */
+void calc_init(void);
+boolean_t get_linea(char_t linea[]);
+boolean_t eval_sub_linea(void);
+boolean_t eval_linea(void);
+void do_diag(void);
+void interactive(void);

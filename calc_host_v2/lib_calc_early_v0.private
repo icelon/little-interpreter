@@ -1,0 +1,8 @@
+/* lib_calc_early_v0.c */
+static boolean_t is_digit(char_t ch);
+static sint32_t getFactorial(sint32_t number);
+static void token_get_next(void);
+static sint32_t factor(void);
+static sint32_t term(void);
+static sint32_t expr(void);
+static void error(char message[]);

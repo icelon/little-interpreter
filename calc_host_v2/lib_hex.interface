@@ -1,0 +1,5 @@
+/* lib_hex.c */
+void hex_digit_init(void);
+void uart_printhex_32(uint32_t value);
+void uart_printhex_16(uint16_t value);
+void uart_printhex_8(uint8_t value);

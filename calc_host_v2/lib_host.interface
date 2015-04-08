@@ -1,0 +1,5 @@
+/* lib_host.c */
+uart_ans_t uart_getchar(void);
+void uart_reset(void);
+void uart_baud_set(void);
+void uart_init(void);

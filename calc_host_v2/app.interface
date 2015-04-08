@@ -1,0 +1,3 @@
+/* app.c */
+void app(void);
+int main(int argc, char *argv[]);
